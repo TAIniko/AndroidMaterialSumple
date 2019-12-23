@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Android Material Sumple</string>
+    <string name="alarm" />
+    <string name="clock" />
+    <string name="timer" />
+    <string name="stopwatch" />
+</resources>

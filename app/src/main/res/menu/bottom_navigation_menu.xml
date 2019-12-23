@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/alarm"
+        android:id="@+id/bottomNavigationAlarmMenuId"
+        android:icon="@drawable/ic_set_alarm"/>
+    <item android:title="@string/clock"
+        android:id="@+id/bottomNavigationClockMenuId"
+        android:icon="@drawable/ic_clock_with_white_face"/>
+    <item android:title="@string/timer"
+        android:id="@+id/bottomNavigationTimerMenuId"
+        android:icon="@drawable/ic_wait"/>
+    <item android:title="@string/stopwatch"
+        android:id="@+id/bottomNavigationStopWatchMenuId"
+        android:icon="@drawable/ic_stopwatch"/>
+
+</menu>
