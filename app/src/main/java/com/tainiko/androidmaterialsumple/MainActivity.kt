@@ -9,8 +9,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        bottomNavigationView.inflateMenu(R.menu.bottom_navigation_menu)
-
         bottomNavigationView.setOnNavigationItemSelectedListener { item: MenuItem ->
             return@setOnNavigationItemSelectedListener when (item.itemId) {
                 R.id.bottomNavigationAlarmMenuId -> {
